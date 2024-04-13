@@ -15,12 +15,12 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
     display: grid;
-    grid-template: repeat(4, auto) / auto 1fr;
-    grid-template-areas:
-        "head head"
-        "navi navi"
-        "main main"
-        "foot foot";
+    grid-template-columns: repeat(12, 1fr);
+grid-template-areas:
+        "head head head head head head head head head head head head"
+        "navi navi navi navi navi navi navi navi navi navi navi navi"
+        "main main main main main main main main main main main main"
+        "foot foot foot foot foot foot foot foot foot foot foot foot";
 }
 a:focus, a:hover {
 	font-style: italic;
